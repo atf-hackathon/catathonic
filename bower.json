@@ -1,0 +1,10 @@
+{
+  "name": "catathonic",
+  "version": "0.0.0",
+  "authors": [
+    "tech.team.atf@emag.ro"
+  ],
+  "dependencies": {
+    "phaser-official": "latest"
+  }
+}
