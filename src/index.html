@@ -3,9 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>CATATHONIC</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <script src="http://localhost:35729/livereload.js"></script>
+  <script src="bower_components/phaser-official/build/phaser.js"></script>
+  <script src="js/boot.js"></script>
+  <script src="js/preloader.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/class/spriter.js"></script>
+  <script src="js/class/entity.js"></script>
+  <script src="js/class/mob.js"></script>
+  <script src="js/class/enemy.js"></script>
+  <script src="js/class/mobs.js"></script>
+  <script src="js/class/projectile.js"></script>
+  <script src="js/class/collectible.js"></script>
+  <script src="js/main.js"></script>
 </head>
 <body>
+  <img src="assets/los_voluntarios_full.jpg" style="z-index: 999999; position: absolute" onclick="this.style.display = 'none'">
+  <img src="assets/samsungbanner-border-clockwise.png" style="position: absolute; left: 0px; height: 100%;">
   <div id="catathonic-game" class="game"></div>
+  <img src="assets/samsungbanner-border-counter-clockwise.png" style="position: absolute; right: 0px; height: 100%">
 </body>
 </html>
 

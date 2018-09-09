@@ -23,7 +23,7 @@
 			this.titleTxt.y = this.titleTxt.y - this.titleTxt.height * 2 + 5;
 
 			y = y + this.titleTxt.height + 5;
-			this.startTxt = this.add.bitmapText(x, y, 'minecraftia', '_______________\nControls\nW : start\nArrows : move\n_______________');
+			this.startTxt = this.add.bitmapText(x, y, 'minecraftia', '_______________\nControls\nStart : W\nMove using arrows\n_______________');
 			this.startTxt.align = 'center';
 			this.startTxt.x = this.game.width / 2 - this.startTxt.textWidth / 2;
 
