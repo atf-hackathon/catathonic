@@ -29,7 +29,8 @@ gulp.task('html', function () {
 gulp.task('connect', function () {
 	connect.server({
 		root: [__dirname + '/src'],
-		port: 9000,
+		port: 80,
+                host: '0.0.0.0',
 		livereload: true
 	});
 });
